@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`min-h-screen ${inter.className}`}>
-        <main className="flex items-center justify-between p-12">
+        <main className="flex justify-between">
           <TheHeader />
           {children}
           <TheFooter />
